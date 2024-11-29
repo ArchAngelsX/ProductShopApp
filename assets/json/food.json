@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Nigiri Tuna Sushi",
+        "description": "Indulge in the exquisite flavors of our Nigiri Tuna Sushi, where a perfectly sliced piece of premium, sashimi-grade tuna rests elegantly on a bed of expertly seasoned sushi rice. This classic dish is a celebration of simplicity and quality, allowing the freshness of the tuna to shine through in every bite. Ideal for sushi lovers seeking a refined taste experience.",
+        "price": 45000,
+        "img_path": "assets/images/sushi/nigiri_Tuna.jpg",
+        "rating": 4.8
+    },
+    {
+        "name": "Uramaki Double Salmon",
+        "description": "Experience the luxurious taste of our Uramaki Double Salmon, a creative sushi roll that features two sumptuous layers of rich, buttery salmon enveloped in a delicate layer of creamy avocado. This innovative roll is not only a feast for the palate but also a visual delight, making it a must-try for those who appreciate the art of sushi. Each bite is a harmonious blend of flavors and textures that will leave you craving more.",
+        "price": 100000,
+        "img_path": "assets/images/sushi/uramaki_doubleSalmon.jpg",
+        "rating": 4.6
+    },
+    {
+        "name": "Dragonroll Maki",
+        "description": "Dive into a culinary masterpiece with our Dragonroll Maki, a visually stunning sushi roll that captures the essence of Japanese cuisine. This delightful creation features tender eel and crunchy cucumber, all beautifully topped with creamy avocado, resembling a dragon in its presentation. The combination of flavors and textures creates an unforgettable sushi experience that is both satisfying and mesmerizing.",
+        "price": 120000,
+        "img_path": "assets/images/sushi/Dragonroll_maki.jpg",
+        "rating": 4.9
+    },
+    {
+        "name": "Unagi Temaki",
+        "description": "Savor the unique flavors of our Unagi Temaki, a hand-rolled cone that showcases the rich, smoky taste of grilled eel paired with a medley of fresh, crisp vegetables. This delightful temaki offers a perfect balance of savory and refreshing elements, wrapped in a delicate sheet of nori. It's a delightful choice for those who enjoy a more casual yet flavorful sushi experience, perfect for on-the-go enjoyment.",
+        "price": 60000,
+        "img_path": "assets/images/sushi/Unagi-Temaki.jpg",
+        "rating": 4.7
+    },
+    {
+        "name": "Sashimi Tuna",
+        "description": "Delight in the pure, unadulterated taste of our Sashimi Tuna, where fresh, high-quality tuna slices are served without rice, allowing the natural flavors of the fish to take center stage. Each piece is expertly cut to showcase the vibrant color and delicate texture of the tuna, making it a perfect choice for connoisseurs who appreciate the simplicity and elegance of traditional sashimi. A true testament to the beauty of fresh seafood.",
+        "price": 140000,
+        "img_path": "assets/images/sushi/sashimi_tuna.jpg",
+        "rating": 4.9
+    }
+]
