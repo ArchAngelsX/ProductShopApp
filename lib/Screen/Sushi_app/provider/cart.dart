@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sushi_app/models/cart_model.dart';
-import 'package:sushi_app/models/menu_sushi.dart';
+import 'package:sushi_app/models/sushi/cart_model.dart';
+import 'package:sushi_app/models/sushi/menu_sushi.dart';
 
 class Cart extends ChangeNotifier {
   final List<CartModel> _cart = [];

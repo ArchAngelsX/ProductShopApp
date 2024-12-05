@@ -4,9 +4,9 @@ import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:sushi_app/Screen/Sushi_app/cart_sushi.dart';
 // import 'package:sushi_app/main.dart';
-import 'package:sushi_app/models/menu_sushi.dart';
+import 'package:sushi_app/models/sushi/menu_sushi.dart';
 // import 'package:sushi_app/models/cart_model.dart';
-import 'package:sushi_app/provider/cart.dart';
+import 'package:sushi_app/Screen/Sushi_app/provider/cart.dart';
 
 class DetailScreen extends StatefulWidget {
   final Menu food;

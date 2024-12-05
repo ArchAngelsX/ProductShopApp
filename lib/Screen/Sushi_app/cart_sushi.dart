@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:sushi_app/models/cart_model.dart';
-import 'package:sushi_app/provider/cart.dart';
+import 'package:sushi_app/models/sushi/cart_model.dart';
+import 'package:sushi_app/Screen/Sushi_app/provider/cart.dart';
 
 class CartPage extends StatelessWidget {
   final List<CartModel> cartItems;
 
-  const CartPage({Key? key, required this.cartItems}) : super(key: key);
+  const CartPage({super.key, required this.cartItems});
 
   @override
   Widget build(BuildContext context) {
@@ -69,10 +69,10 @@ class CartItemWidget extends StatelessWidget {
   final VoidCallback onRemove;
 
   const CartItemWidget({
-    Key? key,
+    super.key,
     required this.item,
     required this.onRemove,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

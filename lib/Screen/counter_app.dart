@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sushi_app/provider/counter_model.dart';
+import 'package:sushi_app/Screen/Sushi_app/provider/counter_model.dart';
 
 class CounterApp extends StatelessWidget {
   const CounterApp({super.key});

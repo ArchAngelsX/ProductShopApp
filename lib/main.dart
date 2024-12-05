@@ -6,13 +6,28 @@ import 'package:sushi_app/Screen/counter_app_noProvider.dart';
 import 'package:sushi_app/Screen/counter_app.dart';
 import 'package:sushi_app/Screen/emojigen.dart';
 import 'package:sushi_app/Screen/homescreen.dart';
-import 'package:sushi_app/provider/cart.dart';
+import 'package:sushi_app/Screen/Sushi_app/provider/cart.dart';
+import 'package:sushi_app/Screen/Sushi_app/provider/counter_model.dart';
+import 'package:sushi_app/Screen/product/confirmation.dart';
+import 'package:sushi_app/Screen/product/product_screen.dart';
+import 'package:sushi_app/Screen/product/order_page.dart';
+import 'package:sushi_app/service_provider/service_provider.dart';
+
+import 'service_provider/cart_product_provider.dart';
+import 'service_provider/order_provider.dart';
 // import 'package:sushi_app/provider/counter_model.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(
-      create: (_)=> Cart(),
+    MultiProvider(
+      providers: [
+         ChangeNotifierProvider(create: (_) => Cart()),
+         ChangeNotifierProvider(create: (_) => CounterProvider()),
+         ChangeNotifierProvider(create: (_) => ServiceProvider()),
+         ChangeNotifierProvider(create: (_) => CartProductProvider()),
+         ChangeNotifierProvider(create: (_) => OrderProvider()),
+      ],
+      
       child: const MyApp(),
       ),
     );
@@ -54,7 +69,9 @@ class MyApp extends StatelessWidget {
         '/EmojiGenerator': (context) => const EmojiGenerator(),
         '/CounterApp': (context) => const CounterApp(),
         '/CounterAppWithoutProv': (context) => const CounterAppWithoutProvider(),
-        
+        '/Confirmation': (context) => const ConfirmationPage(),
+        '/homeProduct': (context) => const ProductScreen(),
+        '/orderHistory': (context) => const OrderPage(),
       },
     
     );
@@ -77,7 +94,7 @@ class MyHomePage extends StatefulWidget {
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
-}
+} 
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;

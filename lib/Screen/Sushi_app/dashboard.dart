@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sushi_app/Screen/Sushi_app/cart_sushi.dart';
 import 'package:sushi_app/Screen/Sushi_app/detail_screen.dart';
-import 'package:sushi_app/models/menu_sushi.dart';
+import 'package:sushi_app/models/sushi/menu_sushi.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:sushi_app/provider/cart.dart';
+import 'package:sushi_app/Screen/Sushi_app/provider/cart.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});

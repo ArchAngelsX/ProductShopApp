@@ -4,7 +4,12 @@ class CartModel {
   String? imgPath;
   int? quantity;
 
-  CartModel({this.name, this.price, this.imgPath, this.quantity});
+  CartModel({
+    this.name, 
+    this.price, 
+    this.imgPath, 
+    this.quantity
+    });
 
   CartModel.fromJson(Map<String, dynamic> json) {
     name = json['name'];
